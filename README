@@ -1,11 +1,15 @@
 **** LOOKING FOR THE ZIP FILE TO DOWNLOAD? ************************************
-If you're on already at https://github.com/cantonbecker/bitcoinpaperwallet
+If you're on already at https://github.com/scottie/urocoinpaperwallet/
 Then just look for the button that says "Download ZIP". Look to your right -->
 *******************************************************************************
+The Urocoin Paper Wallet!
 
+
+This project is a fork of ....
 *** bitcoinpaperwallet.com ***
 
-This project is a fork of bitaddress.org, the original trustworthy
+And a fork of ....
+bitaddress.org, the original trustworthy
 JavaScript powered offline bitcoin address generator. 
 
 This attractive paper wallet design is two-sided and folds up to
@@ -44,47 +48,8 @@ Windows system print dialog will produce corrupted/illegible keys.
 QR scanning works best using Firefox since Chrome will not access the camera controls
 when opening a locally saved HTML file.
 
-*** COMPARED WITH BITADDRESS.ORG ***
-
-Images and resources have been moved out of the .html file (where they were
-base-64 encoded) and into an images directory to make the code easier to review.
-
-All cryptographic functions are verifiably identical to those in bitaddress.org.
-(Run a "diff" between this project and bitaddress.org if you want to be sure.)
-
-*** HOW TO VERIFY THE AUTHENTICITY OF THIS DOWNLOAD ***
-
-After downloading the ZIP package for this generator, you should find a file 
-named generate-wallet.html.sig which you can use to:
-
-* Verify that generate-wallet.html hasn't been tampered with, and
-* Get proof that it really was authored by Canton Becker (canton@gmail.com) 
-  whose GPG public key and fingerprint should be confirmed at http://cantonbecker.com
-  and/or by searching bitcointalk.org, etc.
-  
-For example, if you have GPG installed, you should be able cd to the appropriate 
-directory and type in these two commands:
-
-  gpg --recv-key 36E1D9B6
-  gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html 
-
-And then verify the resulting signature's fingerprint against Canton Becker's
-published fingerprint at http://cantonbecker.com
-
-If you get warnings like "This key is not certified, there is no indication that
-the key belongs to the owner" do not worry, this is normal.
 
 
-*** DONATIONS ***
-
-To support ongoing development of this project, please consider making a donation or
-purchasing wallet-making supplies or the Ubuntu LiveCD with this software here:
-
-https://bitcoinpaperwallet.com/#purchase
-https://bitcoinpaperwallet.com/#donate
-
-Special thanks to pointbiz/bitaddress.org and Artiom Chilaru/flexlabs.org for 
-their significant contributions to this software.
 
 *** LICENSE ***
 
